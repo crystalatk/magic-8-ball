@@ -30,7 +30,7 @@ class GetAnswer extends Component {
         return (
             <>
                 <Message>{this.state.question}</Message>
-                <Message>{this.state.answer}</Message>
+                <Message id="eight-ball" className="eight-ball">{this.state.answer}</Message>
             </>
         )
     }

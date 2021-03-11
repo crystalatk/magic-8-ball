@@ -36,6 +36,7 @@ class Input extends Component {
             <form onSubmit={this._handleSubmit}>
         <label>
         <InputStyle 
+            id="question"
             name="question" 
             type="text" 
             placeholder="Your question, please..."
